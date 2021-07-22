@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DataSet">
+      <UniqueIdentifier>{c224bb9c-ab20-4ee4-8f4f-817bd38922b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSet\TestSet">
+      <UniqueIdentifier>{14dbb0bf-da5f-4faf-8559-ebae18957d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSet\TrainingSet">
+      <UniqueIdentifier>{a72699cf-145e-452d-871d-452b1190a12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Naive Bayes Classifier">
+      <UniqueIdentifier>{72dd90c9-f5b1-427e-8d66-366eec7c13dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Naive Bayes Classifier\FileAccessors">
+      <UniqueIdentifier>{83e5a0d6-34fe-4351-b62d-1579c502ad5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NaiveBayesClassifier.cpp">
+      <Filter>Source Files\Naive Bayes Classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="FilesAccess\FilesAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DataSet\readme.txt">
+      <Filter>DataSet</Filter>
+    </Text>
+    <Text Include="DataSet\terms.txt">
+      <Filter>DataSet</Filter>
+    </Text>
+    <Text Include="DataSet\TestSet\testClasses.txt">
+      <Filter>DataSet\TestSet</Filter>
+    </Text>
+    <Text Include="DataSet\TestSet\testMatrix.txt">
+      <Filter>DataSet\TestSet</Filter>
+    </Text>
+    <Text Include="DataSet\TrainingSet\trainClasses.txt">
+      <Filter>DataSet\TrainingSet</Filter>
+    </Text>
+    <Text Include="DataSet\TrainingSet\trainMatrix.txt">
+      <Filter>DataSet\TrainingSet</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NaiveBayesClassifier.h">
+      <Filter>Source Files\Naive Bayes Classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>Source Files\Naive Bayes Classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="FilesAccess\FilesAccess.h">
+      <Filter>Source Files\Naive Bayes Classifier\FileAccessors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
